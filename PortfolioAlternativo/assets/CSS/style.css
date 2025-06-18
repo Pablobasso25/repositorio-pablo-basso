@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Spline+Sans:wght@300..700&display=swap");
+
+:root {
+  --color-brand: #f01e59;  
+  --color-brand-rgb: #f01e59;
+  --color-dark: #32328e;
+  --color-body: #636383;
+  --font-main: "Bai Jamjuree", sans-serif;
+  --trasition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  --shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--color-body);
+  line-height: 1.7;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-weight: 700;
+  color: var(--color-dark);
+  transition: var(--trasition);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-dark);
+  transition: var(--trasition);
+}
+a:hover {
+  color: var(--color-brand);
+}
+img {
+  width: 100%;
+}
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.text-brand {
+  color: var(--color-brand);
+}
+.servicios-titulo{
+  max-width: 560px;
+  margin: 0 auto 60px auto;
+}
+.servicios-titulo .line{
+  width: 60px;
+  height: 2px;
+  background-color: var(--color-brand);
+  display: inline-block;
+}
+.section-conector{
+  position: relative;
+}
+.section-conector::after{
+  content: '';
+  width: 2px;
+  height: 100px;
+  background-color: var(--color-brand);
+  position:absolute;
+  top: -50px;
+  left: 50%;
+}
+
+
+
+/*Navbar*/
+.navbar{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition: var(--trasition);
+  background-color:rgba(244, 243, 243, 0.8);
+  box-shadow: var(--shadow);
+}
+.navbar.scrolled {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color:white;
+  box-shadow: var(--shadow);
+}
+.navbar .navbar-nav .nav-link{
+    font-weight: 800;
+    color: var(--color-dark);
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active{
+    color: var(--color-brand);
+}
+.navbar-brand {
+  font-size: 24px;
+    font-weight: 700;
+    color: var(--color-dark);
+}
+.social-icon{
+  width: 36px;
+    height: 36px;
+    background-color: var(--color-brand);
+    color: white;
+    border: 2px solid var(--color-brand);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6px;
+}
+.social-icon:hover {
+  background-color: transparent;
+  
+}
+
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+/*Btn*/
+.btn {
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: var(--trasition);
+}
+.btn-brand {
+  background-color: var(--color-brand);
+  color: white;
+}
+
+/*Home*/
+#home{
+
+  background-image: url(../images/Diseño\ sin\ título.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Servicios*/
+.servicios-icon{
+  width: 60px;
+  height: 60px;
+  background-color: var(--color-brand);
+  color: white;
+  font-size: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.custom-link{
+  display: inline-flex;
+  align-items: center;
+}
+.custom-link span{
+  font-weight: 700;
+}
+.custom-link i{
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-brand);
+  border-radius: 100px;
+  color: white;
+  margin-left: 6px;
+  transition: var(--trasition);
+}
+.custom-link:hover i{
+  transform: translateX(8px);
+}
+/*Proyectos*/
+.proyectos{
+  overflow: hidden;
+  position: relative;
+}
+.proyectos .content{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--color-brand);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.proyectos img,
+.proyectos .content{
+  transition: var(--trasition);
+}
+.proyectos:hover .content{
+  top: 0;
+}
+.proyectos:hover img{
+  transform: translateY(-100%);
+}
+
+/*Clientes*/
+
+.clientes img{
+  opacity: 0.7;
+  height: 30px;
+}
+
+/*Sobre mí*/
+
+.eduexp{
+  position: relative;
+}
+.eduexp::before{
+  content:'';
+  height: 100%;
+  width: 1px;
+  background-color: var(--color-brand-rgb);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.eduexp::after{
+  content:'';
+  width: 14px;
+  height: 14px;
+  background-color:var(--color-brand);
+  position: absolute;
+  left: -7px;
+  top: 0;
+}
+
+/*Contacto*/
+
+#contacto .form-control{
+  border-radius: 0;
+}
+#contacto .form-control:focus{
+  box-shadow: none;
+  border-color: var(--color-brand);
+}
+#contacto input.form-control{
+  height: 44px;
+}
+
+/*Footer*/
+
+footer{
+  background-color: var(--color-dark);
+  padding-top: 80px;
+}
+footer h4{
+  color: white;
+}
+footer p,
+footer li,
+footer li a {
+  color: rgba(255,255,255, 0.7);
+}
+footer ul{
+  list-style: none;
+  padding: 0;
+}
+.footer-top{
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-bottom{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 16px;
+    padding-left: 16px;
+    
+  }
+}

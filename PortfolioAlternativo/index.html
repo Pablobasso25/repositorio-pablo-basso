@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="es_AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio realizado con bootstrap">
+    <meta name="keywords" content="bootstrap portfolio personal ">
+    <meta name="author" content="Pablo Basso">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+    <title>Document</title>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
+    <!--Navbar-->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Pablo Basso</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trabajos">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobremi">Sobre Mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav flex-row">
+            <li class="nav-item">
+              <a class="social-icon" href="#"
+                ><i class="ri-instagram-line"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="social-icon" href="#"
+                ><i class="ri-twitter-x-line"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="social-icon" href="#"
+                ><i class="ri-facebook-box-fill"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="social-icon" href="#"
+                ><i class="ri-linkedin-box-fill"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="social-icon" href="#"><i class="ri-github-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Home-->
+    <section id="home" class="d-flex align-items-center min-vh-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 z-1">
+            <h1 data-aos="fade-up" class="display-2 fw-bold">Hola, soy <span class="text-brand">Pablo</span></h1>
+            <h4 data-aos="fade-up" data-aos-delay="100" class="mt-3 mb-5">
+              Desarrollador web con experiencia en HTML, CSS, JavaScript y
+              frameworks modernos.
+            </h4>
+            <div><a data-aos="fade-up" data-aos-delay="200" href="#contacto" class="btn btn-brand">Contáctame</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Servicios-->
+    <section class="section-padding section-conector" id="servicios">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="servicios-titulo text-center"data-aos="fade-up" data-aos-delay="100">
+              <h1>Servicios</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                assumenda odio suscipit tempore, unde dolorem fugiat! Odio
+                laudantium, totam sunt debitis odit similique sequi illum
+                voluptatibus nostrum sint. Tempora necessitatibus, ab veritatis
+                dolores consequatur culpa.
+              </p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center gy-5">
+          <div class="col-lg-3 col-sm-6"data-aos="fade-up" data-aos-delay="100">
+            <div class="servicios py-5 px-4 border">
+              <div class="servicios-icon">
+                <i class="ri-pencil-ruler-2-line"></i>
+              </div>
+              <h5 class="mt-4">Branding</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum
+                quia adipisci id.
+              </p>
+              <a class="custom-link" href="#">
+                <span>Leer Más</span>
+                <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6"data-aos="fade-up" data-aos-delay="200">
+            <div class="servicios py-5 px-4 border">
+              <div class="servicios-icon">
+                <i class="ri-pen-nib-line"></i>
+              </div>
+              <h5 class="mt-4">Design</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum
+                quia adipisci id.
+              </p>
+              <a class="custom-link" href="#">
+                <span>Leer Más</span>
+                <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6"data-aos="fade-up" data-aos-delay="300">
+            <div class="servicios py-5 px-4 border">
+              <div class="servicios-icon">
+                <i class="ri-profile-line"></i>
+              </div>
+              <h5 class="mt-4">Web Designing</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum
+                quia adipisci id.
+              </p>
+              <a class="custom-link" href="#">
+                <span>Leer Más</span>
+                <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6"data-aos="fade-up" data-aos-delay="400">
+            <div class="servicios py-5 px-4 border">
+              <div class="servicios-icon">
+                <i class="ri-macbook-line"></i>
+              </div>
+              <h5 class="mt-4">Agency Web Design</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum
+                quia adipisci id.
+              </p>
+              <a class="custom-link" href="#">
+                <span>Leer Más</span>
+                <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Trabajos-->
+    <section class="section-padding section-conector pb-0" id="trabajos">
+      <div class="container">
+        <div class="row">
+          <div class="col-12"data-aos="fade-up" data-aos-delay="100">
+            <div class="servicios-titulo text-center">
+              <h1>Mis Trabajos</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                assumenda odio suscipit tempore, unde dolorem fugiat! Odio
+                laudantium, totam sunt debitis odit similique sequi illum
+                voluptatibus nostrum sint. Tempora necessitatibus, ab veritatis
+                dolores consequatur culpa.
+              </p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-5 d-flex align-items-center justify-content-center">
+          <div class="col-lg-5 col-md-6"data-aos="fade-up" data-aos-delay="100">
+            <div class="proyectos">
+              <img class="border" src="./assets/images/trabajos3.png" alt="" />
+              <div class="content">
+                <a
+                  class="btn btn-outline-light"
+                  href="./assets/images/trabajos3.png"
+                  data-fancybox="gallery"
+                  >Ver Proyecto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6"data-aos="fade-up" data-aos-delay="200">
+            <div class="proyectos">
+              <img class="border" src="./assets/images/trabajos4.png" alt="" />
+              <div class="content">
+                <a
+                  class="btn btn-outline-light"
+                  href="./assets/images/trabajos4.png"
+                  data-fancybox="gallery"
+                  >Ver Proyecto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6"data-aos="fade-up" data-aos-delay="300">
+            <div class="proyectos">
+              <img class="border" src="./assets/images/trabajos5.png" alt="" />
+              <div class="content">
+                <a
+                  class="btn btn-outline-light"
+                  href="./assets/images/trabajos5.png"
+                  data-fancybox="gallery"
+                  >Ver Proyecto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6"data-aos="fade-up" data-aos-delay="100">
+            <div class="proyectos">
+              <img class="border" src="./assets/images/trabajos6.png" alt="" />
+              <div class="content">
+                <a
+                  class="btn btn-outline-light"
+                  href="./assets/images/trabajos6.png"
+                  data-fancybox="gallery"
+                  >Ver Proyecto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6"data-aos="fade-up" data-aos-delay="200">
+            <div class="proyectos">
+              <img class="border" src="./assets/images/trabajos7.png" alt="" />
+              <div class="content">
+                <a
+                  class="btn btn-outline-light"
+                  href="./assets/images/trabajos7.png"
+                  data-fancy-box="gallery"
+                  >Ver Proyecto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6"data-aos="fade-up" data-aos-delay="300">
+            <div class="proyectos">
+              <img class="border" src="./assets/images/trabajos1.png" alt="" />
+              <div class="content">
+                <a
+                  class="btn btn-outline-light"
+                  href="./assets/images/trabajos1.png"
+                  data-fancybox="gallery"
+                  >Ver Proyecto</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-12"data-aos="fade-up" data-aos-delay="100">
+              <div class="servicios-titulo text-center">
+                <h1>Colaboraciones</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                  assumenda odio suscipit tempore, unde dolorem fugiat! Odio
+                  laudantium, totam sunt debitis odit similique sequi illum
+                  voluptatibus nostrum sint. Tempora necessitatibus, ab
+                  veritatis dolores consequatur culpa.
+                </p>
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+
+          <!--Colaboraaciones-->
+          <div class="row g-2">
+            <div class="col-lg-3 col-sm-6"data-aos="fade-up" data-aos-delay="100">
+              <div class="clientes p-5 border">
+                <img src="./assets/images/logo01.svg" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6"data-aos="fade-up" data-aos-delay="200">
+              <div class="clientes p-5 border">
+                <img src="./assets/images/logo02.svg" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6"data-aos="fade-up" data-aos-delay="300">
+              <div class="clientes p-5 border">
+                <img src="./assets/images/logo03.svg" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6"data-aos="fade-up" data-aos-delay="400">
+              <div class="clientes p-5 border">
+                <img src="./assets/images/logo04.svg" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6"data-aos="fade-up" data-aos-delay="100">
+              <div class="clientes p-5 border">
+                <img src="./assets/images/logo05.svg" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6"data-aos="fade-up" data-aos-delay="200">
+              <div class="clientes p-5 border">
+                <img src="./assets/images/logo06.svg" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6"data-aos="fade-up" data-aos-delay="300">
+              <div class="clientes p-5 border">
+                <img src="./assets/images/logo07.svg" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6"data-aos="fade-up" data-aos-delay="400">
+              <div class="clientes p-5 border">
+                <img src="./assets/images/logo08.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Sobre Mí-->
+    <section class="section-padding section-conector" id="sobremi">
+      <div class="container">
+        <div class="row">
+          <div class="col-12"data-aos="fade-up" data-aos-delay="100">
+            <div class="servicios-titulo text-center">
+              <h1>Educación y Experiencia</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                assumenda odio suscipit tempore, unde dolorem fugiat! Odio
+                laudantium, totam sunt debitis odit similique sequi illum
+                voluptatibus nostrum sint. Tempora necessitatibus, ab veritatis
+                dolores consequatur culpa.
+              </p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-12">
+                <div class="eduexp p-5 pt-0">
+                  <h5>Master of Software Engineering</h5>
+                  <small class="text-brand">2022 - 2025</small>
+                  <p class="mb-0">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quia explicabo odit rem tenetur pariatur eveniet quis quae
+                    porro ipsam recusandae.
+                  </p>
+                </div>
+                <div class="eduexp p-5 pt-0">
+                  <h5>Bachelor Design</h5>
+                  <small class="text-brand">2024 - 2025</small>
+                  <p class="mb-0">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quia explicabo odit rem tenetur pariatur eveniet quis quae
+                    porro ipsam recusandae.
+                  </p>
+                </div>
+                <div class="eduexp p-5 pt-0 pb-0">
+                  <h5>Information Technology</h5>
+                  <small class="text-brand">2021 - 2023</small>
+                  <p class="mb-0">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quia explicabo odit rem tenetur pariatur eveniet quis quae
+                    porro ipsam recusandae.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-12">
+                <div class="eduexp p-5 pt-0">
+                  <h5>Front End Developer, Freelance</h5>
+                  <small class="text-brand">2022 - 2025</small>
+                  <p class="mb-0">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quia explicabo odit rem tenetur pariatur eveniet quis quae
+                    porro ipsam recusandae.
+                  </p>
+                </div>
+                <div class="eduexp p-5 pt-0">
+                  <h5>Applications Developer</h5>
+                  <small class="text-brand">2024 - 2025</small>
+                  <p class="mb-0">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quia explicabo odit rem tenetur pariatur eveniet quis quae
+                    porro ipsam recusandae.
+                  </p>
+                </div>
+                <div class="eduexp p-5 pt-0 pb-0">
+                  <h5>Web Content Manager</h5>
+                  <small class="text-brand">2021 - 2023</small>
+                  <p class="mb-0">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quia explicabo odit rem tenetur pariatur eveniet quis quae
+                    porro ipsam recusandae.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Blog-->
+    <section class="section-padding section-conector" id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="servicios-titulo text-center"data-aos="fade-up" data-aos-delay="100">
+              <h1>Blog</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                assumenda odio suscipit tempore, unde dolorem fugiat! Odio
+                laudantium, totam sunt debitis odit similique sequi illum
+                voluptatibus nostrum sint. Tempora necessitatibus, ab veritatis
+                dolores consequatur culpa.
+              </p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row gy-4">
+          <div class="col-md-4 shadow"data-aos="fade-up" data-aos-delay="100">
+            <div class="blog">
+              <img src="./assets/images/blog-post1.jpg" alt="" />
+              <div class="blog-content pt-4 pb-4">
+                <h4>Website Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a class="custom-link" href="#">
+                  <span>Leer Más</span>
+                  <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 shadow"data-aos="fade-up" data-aos-delay="200">
+            <div class="blog">
+              <img src="./assets/images/blog-post2.jpg" alt="" />
+              <div class="blog-content pt-4 pb-4">
+                <h4>Website Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a class="custom-link" href="#">
+                  <span>Leer Más</span>
+                  <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 shadow"data-aos="fade-up" data-aos-delay="300">
+            <div class="blog">
+              <img src="./assets/images/blog-post3.jpg" alt="" />
+              <div class="blog-content pt-4 pb-4">
+                <h4>Website Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a class="custom-link" href="#">
+                  <span>Leer Más</span>
+                  <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contacto-->
+    <section class="section-conector" id="contacto">
+      <div class="container section-padding">
+        <div class="row">
+          <div class="col-12">
+            <div class="servicios-titulo text-center"data-aos="fade-up" data-aos-delay="100">
+              <h1>Contacto</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                assumenda odio suscipit tempore, unde dolorem fugiat! Odio
+                laudantium, totam sunt debitis odit similique sequi illum
+                voluptatibus nostrum sint. Tempora necessitatibus, ab veritatis
+                dolores consequatur culpa.
+              </p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center"data-aos="fade-up" data-aos-delay="200">
+          <div class="col-md-8">
+            <form class="row g-3" action="#">
+              <div class="form-group col-md-4">
+                <input
+                  class="form-control"
+                  type="text"
+                  required
+                  placeholder="Nombre"
+                  minlength="8"
+                  maxlength="35"
+                />
+              </div>
+              <div class="form-group col-md-4">
+                <input
+                  class="form-control"
+                  type="number"
+                  required
+                  placeholder="Numero"
+                  minlength="8"
+                  maxlength="35"
+                />
+              </div>
+              <div class="form-group col-md-4">
+                <input
+                  class="form-control"
+                  type="email"
+                  required
+                  placeholder="Email"
+                  minlength="8"
+                  maxlength="35"
+                />
+              </div>
+              <div class="form-group col-md-12">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Asunto"
+                  minlength="8"
+                  maxlength="35"
+                />
+              </div>
+              <div class="form-group col-md-12">
+                <textarea
+                  class="form-control"
+                  required
+                  placeholder="Mensaje"
+                  name=""
+                  rows="4"
+                ></textarea>
+              </div>
+              <div class="form-group col-md-12 text-center">
+                <button class="btn btn-brand">Enviar Mensaje</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-top">
+          <div class="container">
+            <div class="row gy-5">
+              <div class="col md-4">
+                <h4><a class="text-white" href="#home">Pablo Basso</a></h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eak
+                </p>
+                <ul class="navbar-nav flex-row">
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-instagram-line"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-twitter-x-line"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-facebook-box-fill"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-linkedin-box-fill"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="social-icon" href="#"
+                      ><i class="ri-github-fill"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-3 ms-auto">
+                <h4>Enlaces</h4>
+                <ul>
+                  <li><a href="#servicios">Servicios</a></li>
+                  <li><a href="#blog">Blog</a></li>
+                  <li><a href="#contacto">Contacto</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 ms-auto">
+                <h4>Contacto</h4>
+                <ul>
+                  <li>Email: Pablobasso25@gmail.com</li>
+                  <li>Numero: 381-3611025</li>
+                  <li>Dirección: Marcos Paz 345</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-auto">
+                <p class="mb-0">Copyright / Todos los derechos reservados</p>
+              </div>
+              <div class="col-auto">
+                <p class="mb-0">Desarrollado por Pablo Basso</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+    });
+  </script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
